@@ -12,6 +12,7 @@
 
 q{
     color: rgb(245, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ul{
@@ -71,17 +72,17 @@ section#git_header>ul {
 
 /* descendent selector */
 main i{
-    color:brown;
+    color:rgb(162, 41, 41);
 }
 
 /* pseudo-class for links */
 
 header#title a:visited{
-color: red;
+color: rgb(244, 6, 6);
 }
 
 header#title a:hover{
 font-size: 200%;
-color: purple;
+color: rgb(129, 3, 129);
 }
 
