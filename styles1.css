@@ -1,0 +1,92 @@
+/* type selector */
+
+article{
+    column-count:3;
+    column-gap: 35px;
+    column-rule: 2px dotted rgb(0, 117, 0);
+}
+
+img{
+    float:left;
+    margin: 1em;
+}
+
+q{
+    font-weight:800;
+    font-size: 175%;
+    color: rgb(2, 97, 2);
+}
+
+br{
+    clear: left;
+}
+
+/* id/class selector */
+
+#readings{
+    color: rgb(122, 0, 0);
+}
+
+#items{
+    color: rgb(177, 128, 37);
+}
+
+.lists{
+    font-size: 90%;
+}
+
+#read{
+    background:rgb(255, 193, 246);
+    border: dotted rgb(254, 0, 0);
+    padding: 1em 4em;
+}
+
+#it{
+    /* background-color: rgb(249, 255, 161); */
+    background: rgb(249, 255, 161);
+    border: dotted rgb(143, 96, 0);
+    padding: 0.5em 2em;
+    }
+
+#phil{
+    background: linear-gradient(45deg, rgb(248, 255, 186) 0%, rgb(255, 174, 236) 100%);
+    width: 100px;
+    padding: 1em 2em;
+}
+
+.box{
+    width: 20%;
+    text-align: center;
+    margin: 1em;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+    float: left;
+    width:350px;
+}
+
+/* relational selector */
+
+main i{
+    color:rgb(184, 11, 11);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* combination selector */
+section#readings > ul{
+    color: rgb(181, 0, 0);
+}
+
+section#items >ul{
+    color:rgb(158, 127, 24);
+}
+/* attrib./pseudo-class/pseudo-elem. */
+
+section#readings a:visited{
+    color: rgb(244, 6, 6);
+}
+    
+section#readings a:hover{
+    font-size: 150%;
+    color: rgb(129, 3, 129);
+}
