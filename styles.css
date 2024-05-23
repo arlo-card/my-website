@@ -85,8 +85,3 @@ section#items >ul{
 section#readings a:visited{
     color: rgb(244, 6, 6);
 }
-    
-section#readings a:hover{
-    font-size: 150%;
-    color: rgb(129, 3, 129);
-}
