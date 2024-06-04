@@ -40,7 +40,7 @@ br {
 }
 #read {
     background: rgb(161, 12, 14);
-    border: dotted rgb(254, 0, 0);
+    border: dotted rgb(255, 193, 246);;
     padding: 1em 4em;
 }
 
@@ -50,9 +50,15 @@ br {
 }
 #it {
     /* background-color: rgb(249, 255, 161); */
-    background: rgb(161, 12, 14);
+    background:rgb(161, 12, 14);
     border: dotted rgb(255, 193, 246);
     padding: 0.5em 2em;
+}
+
+#jump{
+    background:rgb(64, 134, 70);
+    border: ridge rgb(193, 255, 206);
+    padding: .5em;
 }
 
 
@@ -61,9 +67,11 @@ br {
 }
 
 #phil {
-    background: linear-gradient(45deg, rgb(248, 255, 186) 0%, rgb(255, 174, 236) 100%);
+    background: linear-gradient(35deg, rgb(161, 12, 14) 5%, rgb(47, 133, 13) 50%, rgb(161, 12, 14) 100%);
     width: 100px;
     padding: 1em 2em;
+    border: dotted rgb(255, 255, 255);
+
 }
 
 .box {
@@ -85,6 +93,20 @@ br {
     color: rgb(135, 28, 37);
 }
 
+a:link {
+    color: rgb(255, 183, 0);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+
+.left{
+    float:left;
+    float:right;
+}
+
 /* relational selector */
 
 main i {
@@ -102,14 +124,6 @@ section#items>ul {
 }
 
 /* attrib./pseudo-class/pseudo-elem. */
-
-section#readings a:link {
-    color: rgb(255, 183, 0);
-}
-
-section#readings a:visited {
-    color: rgb(255, 255, 255);
-}
 
 section#readings a:hover {
     font-size: 105%;
