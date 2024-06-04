@@ -1,5 +1,9 @@
 /* type selector */
 
+body{
+    background-color: rgba(180, 255, 150, 0.626);
+}
+
 h1{
     text-align: center;
     color: rgb(1, 50, 1); 
@@ -32,28 +36,28 @@ br {
 /* id/class selector */
 
 #readings {
-    color: rgb(122, 0, 0);
+    color: rgb(255, 255, 255);
 }
-
-#items {
-    color: rgb(177, 128, 37);
-}
-
-.lists {
-    font-size: 90%;
-}
-
 #read {
-    background: rgb(255, 193, 246);
+    background: rgb(161, 12, 14);
     border: dotted rgb(254, 0, 0);
     padding: 1em 4em;
 }
 
+
+#items {
+    color: rgb(255, 255, 255);
+}
 #it {
     /* background-color: rgb(249, 255, 161); */
-    background: rgb(249, 255, 161);
-    border: dotted rgb(143, 96, 0);
+    background: rgb(161, 12, 14);
+    border: dotted rgb(255, 193, 246);
     padding: 0.5em 2em;
+}
+
+
+.lists {
+    font-size: 90%;
 }
 
 #phil {
@@ -90,21 +94,25 @@ main i {
 
 /* combination selector */
 section#readings>ul {
-    color: rgb(181, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 section#items>ul {
-    color: rgb(158, 127, 24);
+    color: rgb(255, 255, 255);
 }
 
 /* attrib./pseudo-class/pseudo-elem. */
 
+section#readings a:link {
+    color: rgb(255, 183, 0);
+}
+
 section#readings a:visited {
-    color: rgb(244, 6, 6);
+    color: rgb(255, 255, 255);
 }
 
 section#readings a:hover {
-    font-size: 150%;
+    font-size: 105%;
     color: rgb(197, 118, 250);
 }
 
@@ -123,7 +131,7 @@ section#readings a:hover {
     padding: 1em 0;
     margin: 1em;
     text-decoration: none;
-    background-color: rgb(231, 81, 201);
+    background-color: rgb(161, 12, 14);
     color: rgb(255, 255, 255);
     font-weight: bold;
     border: 2px solid rgb(2, 104, 2);
@@ -140,6 +148,13 @@ section#readings a:hover {
 }
 
 /* media query */
+
+/* @media only screen and (max-width: 1769px) {
+    .box{
+        float:left;
+    }
+} */
+
 @media only screen and (max-width: 750px) {
  
     #nav_menu ul li {
@@ -156,4 +171,14 @@ section#readings a:hover {
     .comic-titles{
         float:right;
     }
- }
+
+    .box{
+        float: left;
+        width: 50%
+    }
+
+    footer{
+        float: left;
+    }
+}
+

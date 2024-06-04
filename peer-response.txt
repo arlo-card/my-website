@@ -1,0 +1,19 @@
+suggestions:
+
+1.  At small screen widths, I encountered some issues with the floating boxes 
+at the bottom of the homepage. While they adjusted to the screen size as expected 
+as I shrank the width, at some point they are simply cut off by the edge of the browser.
+
+2. I encountered an issue in the Wildstorm Universe Readings section on the homepage with 
+the links; as I hover over the links, they grow in size and sometimes this causes me to misclick 
+on a different link or not hover over it like I had intended. I think it would be better if it stayed 
+the same size regardless of hovering over it or not.
+
+- 
+
+To solve the first problem, I tried to add a media break point where the box would float left when the rec. 
+reading list would tuck under the philosophy link. In addition, I made it so that when the browser width shrinks,
+the boxes will as well to 40%.
+
+For the second issue, I still wanted there to be a more obvious indicator of which link was being hovered over.
+I kept the color change but rather than having the link increase to 200%, it will now increase to 105%.
