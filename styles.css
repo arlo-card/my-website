@@ -7,6 +7,7 @@ body{
 h1{
     text-align: center;
     color: rgb(1, 50, 1); 
+    font-family: "Seymour One", serif;
 }
 
 article {
@@ -179,6 +180,10 @@ section#readings a:hover {
     #nav_menu ul li a {
         margin: 0em;
     }
+
+    #quotes{
+        float:left;
+    }
  }
 
  @media only screen and (max-width: 1075px) {
@@ -195,4 +200,3 @@ section#readings a:hover {
         float: left;
     }
 }
-

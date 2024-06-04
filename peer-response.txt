@@ -17,3 +17,6 @@ the boxes will as well to 40%.
 
 For the second issue, I still wanted there to be a more obvious indicator of which link was being hovered over.
 I kept the color change but rather than having the link increase to 200%, it will now increase to 105%.
+
+Even thought it's not listed here, I changed the colors of my website to make it more readable since there were
+issues with my previous colors.
