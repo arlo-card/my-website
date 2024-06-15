@@ -1,15 +1,18 @@
 /* type selector */
 
+/* color of website */
 body{
     background-color: rgba(180, 255, 150, 0.626);
 }
 
+/* titles */
 h1{
     text-align: center;
     color: rgb(1, 50, 1); 
     font-family: "Seymour One", serif;
 }
 
+/* for second page page*/
 article {
     column-count: 3;
     column-gap: 35px;
@@ -36,6 +39,7 @@ br {
 
 /* id/class selector */
 
+/* recommended readings list */
 #readings {
     color: rgb(255, 255, 255);
 }
@@ -45,7 +49,7 @@ br {
     padding: 1em 4em;
 }
 
-
+/* signature items list */
 #items {
     color: rgb(255, 255, 255);
 }
@@ -67,6 +71,7 @@ br {
     font-size: 90%;
 }
 
+/* boxes */
 #phil {
     background: linear-gradient(35deg, rgb(161, 12, 14) 5%, rgb(47, 133, 13) 50%, rgb(161, 12, 14) 100%);
     width: 100px;
@@ -116,6 +121,8 @@ main i {
 }
 
 /* combination selector */
+
+/* font colors for lists */
 section#readings>ul {
     color: rgb(255, 255, 255);
 }
@@ -154,21 +161,11 @@ section#readings a:hover {
     
 }
 
-/* #nav_menu ul li a.lastitem {
-    color:rgb(204, 255, 0);
-} */
-
 #nav_menu ul li a.current {
     color: rgb(255, 255, 255);
 }
 
 /* media query */
-
-/* @media only screen and (max-width: 1769px) {
-    .box{
-        float:left;
-    }
-} */
 
 @media only screen and (max-width: 750px) {
  
@@ -186,11 +183,13 @@ section#readings a:hover {
     }
  }
 
+ /* makes the comics title go to the left when the width gets small */
  @media only screen and (max-width: 1075px) {
     .comic-titles{
         float:right;
     }
 
+/* makes the signature items/rec reading lists/footer go to the side when the width gets small */
     .box{
         float: left;
         width: 50%
